@@ -1,0 +1,169 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "ziggy",
+            "intents": [
+                {
+                    "name": "PlayTheFeelingsGame",
+                    "slots": [
+                        {
+                            "name": "ZiggyNames",
+                            "type": "ZIGGY_NAMES"
+                        }
+                    ],
+                    "samples": [
+                        "play",
+                        "start",
+                        "play game",
+                        "start game",
+                        "play again",
+                        "play game with {ZiggyNames}"
+                    ]
+                },
+                {
+                    "name": "PromptNextQuestion",
+                    "slots": [
+                        {
+                            "name": "ZiggyNames",
+                            "type": "ZIGGY_NAMES"
+                        }
+                    ],
+                    "samples": [
+                        "go {ZiggyNames}",
+                        "go {ZiggyNames} go",
+                        "go"
+                    ]
+                },
+                {
+                    "name": "GetExtraTime",
+                    "slots": [],
+                    "samples": [
+                        "more time"
+                    ]
+                },
+                {
+                    "name": "SetGameMode",
+                    "slots": [
+                        {
+                            "name": "GameMode",
+                            "type": "GAME_MODES"
+                        }
+                    ],
+                    "samples": [
+                        "I am {GameMode}",
+                        "{GameMode}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "help"
+                    ]
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "IntentNotKnown",
+                    "slots": [],
+                    "samples": [
+                        "where",
+                        "when",
+                        "why",
+                        "why is",
+                        "whose",
+                        "do",
+                        "you",
+                        "sdfsdf dfdsfs",
+                        "asdsd dfsfsflg",
+                        "blah blah",
+                        "blah",
+                        "sdfsajfnj djsfsdf"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "ZIGGY_NAMES",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "ziggy the zebra"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ziggy"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "zig"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "zigE"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "zygy"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "the zebra"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ziggy zebra"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "GAME_MODES",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "acting"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "actin"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "act"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "drawing"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "draw"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "drawin"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
