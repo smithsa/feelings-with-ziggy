@@ -1,19 +1,9 @@
-"""
-This sample demonstrates a simple skill built with the Amazon Alexa Skills Kit.
-The Intent Schema, Custom Slots, and Sample Utterances for this skill, as well
-as testing instructions are located at http://amzn.to/1LzFrj6
-
-For additional samples, visit the Alexa Skills Kit Getting Started guide at
-http://amzn.to/1LGWsLG
-"""
-
 from __future__ import print_function
 import random
 import urllib2
 import json
 
-# AMAZON.YesIntent
-# AMAZON.NoIntent
+
 SKILL_NAME = 'Feelings with Ziggy'
 API_BASE = 'http://feelingswithziggythezebra-env.us-east-1.elasticbeanstalk.com/api.php'
 GAME_TOTAL_QUESTIONS = 28
@@ -38,24 +28,6 @@ WAIT_MUSIC_DRAWING_AUDIO_URL = 'https://s3.amazonaws.com/feelingswithziggythezeb
 
 
 # --------------- Helpers that build all of the responses ----------------------
-
-
-# Card with Image Example
-# {
-#   "version": "1.0",
-#   "response": {
-#     "outputSpeech": {"type":"PlainText","text":"Your Car-Fu car is on the way!"},
-#     "card": {
-#       "type": "Standard",
-#       "title": "Ordering a Car",
-#       "text": "Your ride is on the way to 123 Main Street!\nEstimated cost for this ride: $25",
-#       "image": {
-#         "smallImageUrl": "https://carfu.com/resources/card-images/race-car-small.png",
-#         "largeImageUrl": "https://carfu.com/resources/card-images/race-car-large.png"
-#       }
-#     }
-#   }
-# }
 
 def build_speechlet_response(title, text_output, output, reprompt_text, should_end_session):
     return {
