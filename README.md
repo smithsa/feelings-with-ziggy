@@ -1,5 +1,5 @@
 # Feelings with Ziggy
-Feelings with Ziggy and Coin Watch are both Alexa Skills applications built with Python. Coin Watch gives realtime current USD price of the top cryptocurrencies using the cryptocompare API. Feelings with Ziggy, built for an Alexa Skills challenge, is an educational game that aims to enhance the emotional literacy of young children by placing emotions to common experiences, ultimately helping children identify and express what they are feeling. Both skills were built with AWS Lambda. Feelings with Ziggy additionally uses s3 Bucket, Amazon EC2, and Amazon RDS (running an API I built with PHP and MySQL).
+Feelings with Ziggy is an Alexa Skill built with Python. It was built for an Alexa Skills challenge, and is an educational game that aims to enhance the emotional literacy of young children by placing emotions to common experiences, ultimately helping children identify and express what they are feeling. This skill was built with AWS Lambda. Additionally it uses a s3 Bucket, Amazon EC2, and Amazon RDS (running an API I built with PHP and MySQL).
 
 [View Demo](https://youtu.be/G2bXDq3MGb4)
 
