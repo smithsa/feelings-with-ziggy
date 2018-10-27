@@ -62,3 +62,8 @@ To understand the commands you can give the skill watch the [view demo](https://
 *  [Python](https://www.python.org/)
 *  [AWS Lambda](https://aws.amazon.com/lambda/)
 
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+MIT © [Sade Smith](https://sadesmith.com)
+
