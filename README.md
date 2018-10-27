@@ -34,7 +34,7 @@ git clone git@github.com:smithsa/feelings-with-ziggy.git
 4. Proceed by clicking on the `Next` Button.
 5. Click the `Invocation` tab and give the skill an appropriate `invocation name` - this is what is used to activate your skill.
 6. On the left click the `JSON Editor` tab, then add the contents of models.json to text editor on that page.
-7. Click the `Endpoint` tab and set the AWS Lambda ARN. Set the default as the string you copied in the previous section that looks like this: `arn:aws:lambda:us-east-1:100000012345:function:your-skill-name`
+7. Click the `Endpoint` tab and set the AWS Lambda ARN. Set the default as the string you copied in the previous section that looks like this: `arn:aws:lambda:us-east-1:100000012345:function:your-skill-name`.
 8. Build the model and you are now ready to test the skill.
 
 
